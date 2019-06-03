@@ -69,6 +69,11 @@ public struct Card: Decodable {
         case sunMoonDoubleFacedCard = "sunmoondfc"
     }
     
+    /// The different card frame versions.
+    public enum FrameVersion: String, Decodable {
+        case nineteenNinetyThree = "1993", nineteenNinetySeven = "1997", twentyOThree = "2003", twentyFifteen = "2015", future
+    }
+    
     /// Name of the artist that illustrated the card art.
     public let artist: String
     /// Color of the border.
@@ -91,9 +96,11 @@ public struct Card: Decodable {
     public let foreignData: [ForeignData]
     /// The frame effect of the card. Is nil if the card doesn't have any special frame effect.
     public let frameEffect: FrameEffect?
+    /// Version of the card frame style.
+    let frameVersion: FrameVersion
     
     public enum CodingKeys: String, CodingKey {
-        case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData, frameEffect
+        case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData, frameEffect, frameVersion
         case duelDeckSide = "duelDeck"
     }
 }

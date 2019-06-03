@@ -148,6 +148,7 @@ final class CardTests: XCTestCase {
         ("testColorsEncoding", testColorsEncoding),
         ("testConvetedManaCostEncoding", testConvetedManaCostEncoding),
         ("testDuelDeckSodeEncoding", testDuelDeckSodeEncoding),
-        ("testFaceConvertedManaCostEncoding", testFaceConvertedManaCostEncoding)
+        ("testFaceConvertedManaCostEncoding", testFaceConvertedManaCostEncoding),
+        ("testFlavourTextEncoding", testFlavourTextEncoding)
     ]
 }
