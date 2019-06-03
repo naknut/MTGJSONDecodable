@@ -97,7 +97,7 @@ public struct Card: Decodable {
     /// The frame effect of the card. Is nil if the card doesn't have any special frame effect.
     public let frameEffect: FrameEffect?
     /// Version of the card frame style.
-    let frameVersion: FrameVersion
+    public let frameVersion: FrameVersion
     
     public enum CodingKeys: String, CodingKey {
         case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData, frameEffect, frameVersion
