@@ -98,9 +98,32 @@ public struct Card: Decodable {
     public let frameEffect: FrameEffect?
     /// Version of the card frame style.
     public let frameVersion: FrameVersion
+    /// Starting maximum hand size total modifier. Used only on Vanguard cards.
+    public let startingMaximumHandSizeModifier: Int?
     
     public enum CodingKeys: String, CodingKey {
         case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData, frameEffect, frameVersion
-        case duelDeckSide = "duelDeck"
+        case duelDeckSide = "duelDeck", startingMaximumHandSizeModifier = "hand"
+    }
+    
+    public init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        artist = try values.decode(String.self, forKey: .artist)
+        borderColor = try values.decode(BorderColor.self, forKey: .borderColor)
+        colorIdentity = try values.decode([Color].self, forKey: .colorIdentity)
+        colorIndicator = try values.decodeIfPresent([Color].self, forKey: .colorIndicator)
+        colors = try values.decode([Color].self, forKey: .colors)
+        convertedManaCost = try values.decode(Float.self, forKey: .convertedManaCost)
+        duelDeckSide = try values.decodeIfPresent(DuelDeckSide.self, forKey: .duelDeckSide)
+        faceConvertedManaCost = try values.decodeIfPresent(Float.self, forKey: .faceConvertedManaCost)
+        flavorText = try values.decodeIfPresent(String.self, forKey: .flavorText)
+        foreignData = try values.decode([ForeignData].self, forKey: .foreignData)
+        frameEffect = try values.decodeIfPresent(FrameEffect.self, forKey: .frameEffect)
+        frameVersion = try values.decode(FrameVersion.self, forKey: .frameVersion)
+        if let startingMaximumHandSizeModifierString = try values.decodeIfPresent(String.self, forKey: .startingMaximumHandSizeModifier) {
+            startingMaximumHandSizeModifier = try StartingMaximumHandSizeModifierDecoder.decode(startingMaximumHandSizeModifierString)
+        } else {
+            startingMaximumHandSizeModifier = nil
+        }
     }
 }
