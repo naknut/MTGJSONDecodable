@@ -18,11 +18,11 @@ final class CardTests: XCTestCase {
         }
     }
     
-    func testArtistEncoding() {
+    func testArtistDecoding() {
         XCTAssert(card.artist == jsonDict["artist"] as! String)
     }
     
-    func testBorderColorEncoding() {
+    func testBorderColorDecoding() {
         XCTAssert(card.borderColor == .black)
         
         if let borderlessCardFile = Bundle(for: CardTests.self).path(forResource: "Ajani, Mentor of Heroes", ofType: "json") {
@@ -54,7 +54,7 @@ final class CardTests: XCTestCase {
         }
     }
     
-    func testColorIdentityEncoding() {
+    func testColorIdentityDecoding() {
         XCTAssert(card.colorIdentity.contains(.white))
         XCTAssert(card.colorIdentity.contains(.blue))
         XCTAssert(card.colorIdentity.contains(.black))
@@ -63,7 +63,7 @@ final class CardTests: XCTestCase {
         XCTAssert(card.colorIdentity.count == 5)
     }
     
-    func testColorIndicatorEncoding() {
+    func testColorIndicatorDecoding() {
         XCTAssert(card.colorIndicator == nil, "colorIndicator should be set to nil")
         
         if let nicolBolasCardFile = Bundle(for: CardTests.self).path(forResource: "Nicol Bolas, the Arisen", ofType: "json") {
@@ -82,7 +82,7 @@ final class CardTests: XCTestCase {
         }
     }
     
-    func testColorsEncoding() {
+    func testColorsDecoding() {
         XCTAssert(card.colors.contains(.white))
         XCTAssert(card.colors.contains(.blue))
         XCTAssert(card.colors.contains(.black))
@@ -91,11 +91,11 @@ final class CardTests: XCTestCase {
         XCTAssert(card.colors.count == 5)
     }
     
-    func testConvetedManaCostEncoding() {
+    func testConvetedManaCostDecoding() {
         XCTAssert(card.convertedManaCost == jsonDict["convertedManaCost"] as! Float)
     }
     
-    func testDuelDeckSodeEncoding() {
+    func testDuelDeckSodeDecoding() {
         XCTAssert(card.duelDeckSide == nil, "duelDeckSide should be nil")
         
         if let duelDeckLeftSideCardFile = Bundle(for: CardTests.self).path(forResource: "Artificer's Epiphany", ofType: "json") {
@@ -106,7 +106,7 @@ final class CardTests: XCTestCase {
         }
     }
     
-    func testFaceConvertedManaCostEncoding() {
+    func testFaceConvertedManaCostDecoding() {
         XCTAssert(card.faceConvertedManaCost == nil, "faceConvertedManaCost should be nil")
         
         if let bedeckCardFile = Bundle(for: CardTests.self).path(forResource: "Bedeck", ofType: "json") {
@@ -120,7 +120,7 @@ final class CardTests: XCTestCase {
         }
     }
     
-    func testFlavourTextEncoding() {
+    func testFlavourTextDecoding() {
         XCTAssert(card.flavorText == nil, "flavorText should be set to nil")
         
         if let flavourTextCardFile = Bundle(for: CardTests.self).path(forResource: "Abbey Gargoyles", ofType: "json") {
@@ -135,14 +135,14 @@ final class CardTests: XCTestCase {
     }
 
     static var allTests = [
-        ("testArtistEncoding", testArtistEncoding),
-        ("testBorderColorEncoding", testBorderColorEncoding),
-        ("testColorIdentityEncoding", testColorIdentityEncoding),
-        ("testColorIndicatorEncoding", testColorIndicatorEncoding),
-        ("testColorsEncoding", testColorsEncoding),
-        ("testConvetedManaCostEncoding", testConvetedManaCostEncoding),
-        ("testDuelDeckSodeEncoding", testDuelDeckSodeEncoding),
-        ("testFaceConvertedManaCostEncoding", testFaceConvertedManaCostEncoding),
-        ("testFlavourTextEncoding", testFlavourTextEncoding)
+        ("testArtistDecoding", testArtistDecoding),
+        ("testBorderColorDecoding", testBorderColorDecoding),
+        ("testColorIdentityDecoding", testColorIdentityDecoding),
+        ("testColorIndicatorDecoding", testColorIndicatorDecoding),
+        ("testColorsDecoding", testColorsDecoding),
+        ("testConvetedManaCostDecoding", testConvetedManaCostDecoding),
+        ("testDuelDeckSodeDecoding", testDuelDeckSodeDecoding),
+        ("testFaceConvertedManaCostDecoding", testFaceConvertedManaCostDecoding),
+        ("testFlavourTextDecoding", testFlavourTextDecoding)
     ]
 }
