@@ -55,6 +55,20 @@ public struct Card: Decodable {
         public let text: String?
     }
     
+    /// Special frame effects a card can have.
+    public enum FrameEffect: String, Decodable {
+        case colorshifted
+        case compassLandDoubleFacedCard = "compasslanddfc"
+        case devoid
+        case draft
+        case legendary
+        case miracle
+        case moonEldrazidDoubleFaceCard
+        case nyxtouched
+        case originPlaneswalkerDoubleFaceCard = "originpwdfc"
+        case sunMoonDoubleFacedCard = "sunmoondfc"
+    }
+    
     /// Name of the artist that illustrated the card art.
     public let artist: String
     /// Color of the border.
@@ -67,7 +81,7 @@ public struct Card: Decodable {
     public let colors: [Color]
     /// The converted mana cost of the card.
     public let convertedManaCost: Float
-    /// If the card is in a duel deck product, can be a(left) or b(right). (If not in duel deck product, duelDeck is usually nil.)
+    /// If the card is in a duel deck product. If not in duel deck product, duelDeck is usually nil.
     public let duelDeckSide: DuelDeckSide?
     /// The converted mana cost of the face of either half or part of the card.
     public let faceConvertedManaCost: Float?
@@ -75,9 +89,11 @@ public struct Card: Decodable {
     public let flavorText: String?
     /// Foreign version of the card
     public let foreignData: [ForeignData]
+    /// The frame effect of the card. Is nil if the card doesn't have any special frame effect.
+    public let frameEffect: FrameEffect?
     
     public enum CodingKeys: String, CodingKey {
-        case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData
+        case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData, frameEffect
         case duelDeckSide = "duelDeck"
     }
 }
