@@ -1,5 +1,5 @@
 /// 🎴 A Magic: The Gathering Card.
-public struct Card: Decodable {
+public struct Card {
     /// The different types of border colors a card can have.
     public enum BorderColor: String, Decodable {
         case black, borderless, gold, silver, white
@@ -100,7 +100,9 @@ public struct Card: Decodable {
     public let frameVersion: FrameVersion
     /// Starting maximum hand size total modifier. Used only on Vanguard cards.
     public let startingMaximumHandSizeModifier: Int?
-    
+}
+
+extension Card: Decodable {
     public enum CodingKeys: String, CodingKey {
         case artist, borderColor, colorIdentity, colorIndicator, colors, convertedManaCost, faceConvertedManaCost, flavorText, foreignData, frameEffect, frameVersion
         case duelDeckSide = "duelDeck", startingMaximumHandSizeModifier = "hand"

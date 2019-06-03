@@ -64,7 +64,7 @@ final class CardTests: XCTestCase {
     }
     
     func testColorIndicatorEncoding() {
-        XCTAssert(card.colorIndicator == nil)
+        XCTAssert(card.colorIndicator == nil, "colorIndicator should be set to nil")
         
         if let nicolBolasCardFile = Bundle(for: CardTests.self).path(forResource: "Nicol Bolas, the Arisen", ofType: "json") {
             let nicolBolasCard = try! JSONDecoder().decode(Card.self, from: try! Data(contentsOf: URL(fileURLWithPath: nicolBolasCardFile)))
@@ -75,7 +75,7 @@ final class CardTests: XCTestCase {
                 XCTAssert(nicolBolasColorIndicator.contains(.red))
                 XCTAssert(nicolBolasColorIndicator.count == 3)
             } else {
-                XCTFail("colorIndicator set to nil when should be set")
+                XCTFail("colorIndicator should not be nil")
             }
         } else {
             XCTFail("Nicol Bolas, the Arisen.json not found")
@@ -96,31 +96,25 @@ final class CardTests: XCTestCase {
     }
     
     func testDuelDeckSodeEncoding() {
-        XCTAssert(card.duelDeckSide == nil)
+        XCTAssert(card.duelDeckSide == nil, "duelDeckSide should be nil")
         
         if let duelDeckLeftSideCardFile = Bundle(for: CardTests.self).path(forResource: "Artificer's Epiphany", ofType: "json") {
             let duelDeckLeftSideCard = try! JSONDecoder().decode(Card.self, from: try! Data(contentsOf: URL(fileURLWithPath: duelDeckLeftSideCardFile)))
-            XCTAssert(duelDeckLeftSideCard.duelDeckSide == .left)
+            XCTAssert(duelDeckLeftSideCard.duelDeckSide == .left, "duelDeckSide should be set to .left")
         } else {
             XCTFail("Artificer's Epiphany.json not found")
-        }
-        if let duelDeckRightSideCardFile = Bundle(for: CardTests.self).path(forResource: "Foundry of the Consuls", ofType: "json") {
-            let duelDeckRightSideCard = try! JSONDecoder().decode(Card.self, from: try! Data(contentsOf: URL(fileURLWithPath: duelDeckRightSideCardFile)))
-            XCTAssert(duelDeckRightSideCard.duelDeckSide == .right)
-        } else {
-            XCTFail("Foundry of the Consuls.json not found")
         }
     }
     
     func testFaceConvertedManaCostEncoding() {
-        XCTAssert(card.faceConvertedManaCost == nil)
+        XCTAssert(card.faceConvertedManaCost == nil, "faceConvertedManaCost should be nil")
         
         if let bedeckCardFile = Bundle(for: CardTests.self).path(forResource: "Bedeck", ofType: "json") {
             let bedeckCardData = try! Data(contentsOf: URL(fileURLWithPath: bedeckCardFile))
             let bedeckCard = try! JSONDecoder().decode(Card.self, from: bedeckCardData)
             let bedeckJsonDict = try! JSONSerialization.jsonObject(with: bedeckCardData, options: []) as! [String : Any]
-            XCTAssert(bedeckCard.faceConvertedManaCost != nil)
-            XCTAssert(bedeckCard.faceConvertedManaCost == bedeckJsonDict["faceConvertedManaCost"] as? Float)
+            XCTAssert(bedeckCard.faceConvertedManaCost != nil, "faceConvertedManaCost should not be nil")
+            XCTAssert(bedeckCard.faceConvertedManaCost == bedeckJsonDict["faceConvertedManaCost"] as? Float, "faceConvertedManaCost does not match JSON")
         } else {
             XCTFail("Bedeck.json not found")
         }
@@ -134,7 +128,7 @@ final class CardTests: XCTestCase {
             let flavourTextCard = try! JSONDecoder().decode(Card.self, from: flavourTextCardFileData)
             let flavourTextJsonDict = try! JSONSerialization.jsonObject(with: flavourTextCardFileData, options: []) as! [String : Any]
             XCTAssert(flavourTextCard.flavorText != nil, "flavorText should not be set to nil")
-            XCTAssert(flavourTextCard.flavorText == flavourTextJsonDict["flavorText"] as? String, "flavorText doenst match text from file")
+            XCTAssert(flavourTextCard.flavorText == flavourTextJsonDict["flavorText"] as? String, "flavorText does not match JSON")
         } else {
             XCTFail("Missing Abbey Gargoyles.json not found")
         }
