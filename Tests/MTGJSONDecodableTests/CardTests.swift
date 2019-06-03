@@ -133,6 +133,14 @@ final class CardTests: XCTestCase {
             XCTFail("Missing Abbey Gargoyles.json not found")
         }
     }
+    
+    func testForeignDataDecoding() {
+        let jsonForeignData = jsonDict["foreignData"] as! Array<Any>
+        for (index, foreignData) in card.foreignData.enumerated() {
+            let jsonForeignData = try! JSONSerialization.data(withJSONObject: jsonForeignData[index], options: [])
+            XCTAssert(try! JSONDecoder().decode(Card.ForeignData.self, from: jsonForeignData) == foreignData)
+        }
+    }
 
     static var allTests = [
         ("testArtistDecoding", testArtistDecoding),
@@ -143,6 +151,7 @@ final class CardTests: XCTestCase {
         ("testConvetedManaCostDecoding", testConvetedManaCostDecoding),
         ("testDuelDeckSodeDecoding", testDuelDeckSodeDecoding),
         ("testFaceConvertedManaCostDecoding", testFaceConvertedManaCostDecoding),
-        ("testFlavourTextDecoding", testFlavourTextDecoding)
+        ("testFlavourTextDecoding", testFlavourTextDecoding),
+        ("testForeignDataDecoding", testForeignDataDecoding)
     ]
 }

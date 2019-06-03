@@ -21,7 +21,7 @@ public struct Card {
     }
     
     /// Structure defining alternate language properties for a card.
-    public struct ForeignData: Decodable {
+    public struct ForeignData: Decodable, Equatable {
         /// The different languages the foreign data can be in.
         public enum Language: String, Decodable {
             case english = "English"
