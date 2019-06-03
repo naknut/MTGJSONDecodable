@@ -92,7 +92,7 @@ final class CardTests: XCTestCase {
     }
     
     func testConvetedManaCostDecoding() {
-        XCTAssert(card.convertedManaCost == jsonDict["convertedManaCost"] as! Float)
+        XCTAssert(card.convertedManaCost == jsonDict["convertedManaCost"] as! Float, "convertedManaCost does not match JSON")
     }
     
     func testDuelDeckSodeDecoding() {
@@ -114,7 +114,7 @@ final class CardTests: XCTestCase {
             let bedeckCard = try! JSONDecoder().decode(Card.self, from: bedeckCardData)
             let bedeckJsonDict = try! JSONSerialization.jsonObject(with: bedeckCardData, options: []) as! [String : Any]
             XCTAssert(bedeckCard.faceConvertedManaCost != nil, "faceConvertedManaCost should not be nil")
-            XCTAssert(bedeckCard.faceConvertedManaCost == bedeckJsonDict["faceConvertedManaCost"] as? Float, "faceConvertedManaCost does not match JSON")
+            XCTAssert(bedeckCard.faceConvertedManaCost == (bedeckJsonDict["faceConvertedManaCost"] as! Float), "faceConvertedManaCost does not match JSON")
         } else {
             XCTFail("Bedeck.json not found")
         }
