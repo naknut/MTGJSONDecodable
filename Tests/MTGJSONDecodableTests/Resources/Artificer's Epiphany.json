@@ -1,0 +1,96 @@
+{
+    "artist": "Kieran Yanner",
+    "borderColor": "black",
+    "colorIdentity": [
+        "U"
+    ],
+    "colors": [
+        "U"
+    ],
+    "convertedManaCost": 3.0,
+    "duelDeck": "a",
+    "flavorText": "The artificers of Kaladesh strive ceaselessly for perfection, progress, and the ultimate expression of elegance.",
+    "foreignData": [
+        {
+            "flavorText": "ã‚«ãƒ©ãƒ‡ã‚·ãƒ¥ã®å·¥åŒ ãŸã¡ã¯é€²æ­©ã¨å®Œç’§ã•ã€ãã—ã¦ç©¶æ¥µã®å„ªé›…ã•ã®è¡¨ç¾ã‚’æ±‚ã‚ã¦çµ¶ãˆé–“ãªã„åŠªåŠ›ã‚’æƒœã—ã¾ãªã„ã€‚",
+            "language": "Japanese",
+            "multiverseId": 442848,
+            "name": "å·¥åŒ ã®å¤©å•“",
+            "text": "ã‚«ãƒ¼ãƒ‰ã‚’ï¼’æžšå¼•ãã€‚ã‚ãªãŸãŒã‚¢ãƒ¼ãƒ†ã‚£ãƒ•ã‚¡ã‚¯ãƒˆã‚’ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã—ã¦ã„ãªã„ãªã‚‰ã€ã‚«ãƒ¼ãƒ‰ã‚’ï¼‘æžšæ¨ã¦ã‚‹ã€‚",
+            "type": "ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ãƒˆ"
+        }
+    ],
+    "frameVersion": "2015",
+    "hasFoil": false,
+    "hasNonFoil": true,
+    "isStarter": true,
+    "layout": "normal",
+    "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "frontier": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "vintage": "Legal"
+    },
+    "manaCost": "{2}{U}",
+    "mcmId": 320707,
+    "mcmMetaId": 220268,
+    "mtgstocksId": 37907,
+    "multiverseId": 442772,
+    "name": "Artificer's Epiphany",
+    "number": "36",
+    "originalText": "Draw two cards. If you control no artifacts, discard a card.",
+    "originalType": "Instant",
+    "prices": {
+        "paper": {
+            "2019-01-23": 0.14,
+            "2019-01-30": 0.14,
+            "2019-02-06": 0.15,
+            "2019-02-13": 0.15,
+            "2019-02-20": 0.15,
+            "2019-02-27": 0.15,
+            "2019-03-06": 0.14,
+            "2019-03-13": 0.15,
+            "2019-03-20": 0.14,
+            "2019-03-27": 0.14,
+            "2019-04-03": 0.15,
+            "2019-04-10": 0.15,
+            "2019-04-17": 0.15,
+            "2019-04-24": 0.15,
+            "2019-05-01": 0.15,
+            "2019-05-08": 0.15
+        }
+    },
+    "printings": [
+        "DDU",
+        "ORI"
+    ],
+    "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/84b1e7df6dd32113",
+        "mtgstocks": "https://mtgjson.com/links/6995b9973094964e",
+        "tcgplayer": "https://mtgjson.com/links/4cfe5a4ebead9e9b"
+    },
+    "rarity": "common",
+    "rulings": [
+        {
+            "date": "2015-06-22",
+            "text": "If you control at least one artifact as Artificerâ€™s Epiphany resolves, you canâ€™t discard a card, even if you want to."
+        }
+    ],
+    "scryfallId": "f4e6f89d-c73b-4105-9743-95504f0fd866",
+    "scryfallIllustrationId": "3c5342a3-8f50-4094-a91a-d406cddf0ed2",
+    "scryfallOracleId": "ed10bb4c-f7ef-4046-8dde-465041b55078",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 162797,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/4cfe5a4ebead9e9b",
+    "text": "Draw two cards. If you control no artifacts, discard a card.",
+    "type": "Instant",
+    "types": [
+        "Instant"
+    ],
+    "uuid": "0d506e59-936a-5b5d-b666-225be6906d0c"
+}

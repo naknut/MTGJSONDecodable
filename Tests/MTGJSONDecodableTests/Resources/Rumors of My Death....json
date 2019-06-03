@@ -1,0 +1,71 @@
+{
+  "artist": "Alex Konstad",
+  "borderColor": "silver",
+  "colorIdentity": [
+      "B"
+  ],
+  "colors": [
+      "B"
+  ],
+  "convertedManaCost": 3.0,
+  "flavorText": "By the fourth funeral, the mooks had gotten pretty good at them.",
+  "foreignData": [],
+  "frameVersion": "2015",
+  "hasFoil": true,
+  "hasNonFoil": true,
+  "layout": "normal",
+  "legalities": {},
+  "manaCost": "{2}{B}",
+  "mcmId": 313985,
+  "mcmMetaId": 235385,
+  "mtgstocksId": 36925,
+  "multiverseId": 439454,
+  "name": "\"Rumors of My Death . . .\"",
+  "number": "65",
+  "originalText": "{3}{B}, Exile a permanent you control with a League of Dastardly Doom watermark: Return a permanent card with a League of Dastardly Doom watermark from your graveyard to the battlefield.",
+  "originalType": "Enchantment",
+  "prices": {
+      "paper": {
+          "2019-01-23": 0.16,
+          "2019-01-30": 0.15,
+          "2019-02-06": 0.15,
+          "2019-02-13": 0.15,
+          "2019-02-20": 0.17,
+          "2019-02-27": 0.17,
+          "2019-03-06": 0.17,
+          "2019-03-13": 0.17,
+          "2019-03-20": 0.18,
+          "2019-03-27": 0.17,
+          "2019-04-03": 0.18,
+          "2019-04-10": 0.18,
+          "2019-04-17": 0.18,
+          "2019-04-24": 0.18,
+          "2019-05-01": 0.17,
+          "2019-05-08": 0.19
+      }
+  },
+  "printings": [
+      "UST"
+  ],
+  "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/371e720c2fd4986f",
+      "mtgstocks": "https://mtgjson.com/links/0633151bd5cc7491",
+      "tcgplayer": "https://mtgjson.com/links/f4da472f5769fc77"
+  },
+  "rarity": "uncommon",
+  "rulings": [],
+  "scryfallId": "cb3587b9-e727-4f37-b4d6-1baa7316262f",
+  "scryfallIllustrationId": "f04b83e3-012a-473f-b2b1-876741c0645a",
+  "scryfallOracleId": "38bcba8b-2838-4ac8-9976-f9ccaa94fdba",
+  "subtypes": [],
+  "supertypes": [],
+  "tcgplayerProductId": 153145,
+  "tcgplayerPurchaseUrl": "https://mtgjson.com/links/f4da472f5769fc77",
+  "text": "{3}{B}, Exile a permanent you control with a League of Dastardly Doom watermark: Return a permanent card with a League of Dastardly Doom watermark from your graveyard to the battlefield.",
+  "type": "Enchantment",
+  "types": [
+      "Enchantment"
+  ],
+  "uuid": "201f7042-dda1-53d6-a0bd-8225ba73f34a",
+  "watermark": "leagueofdastardlydoom"
+}

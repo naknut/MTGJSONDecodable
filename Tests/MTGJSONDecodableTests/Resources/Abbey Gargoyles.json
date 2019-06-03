@@ -1,0 +1,54 @@
+{
+  "artist": "Christopher Rush",
+  "borderColor": "gold",
+  "colorIdentity": [
+      "W"
+  ],
+  "colors": [
+      "W"
+  ],
+  "convertedManaCost": 5.0,
+  "flavorText": "\"Though Serra has not been seen for twenty years, her gargoyles still watch over our city and punish the guilty.\" â€”Gulsen, Abbey Matron",
+  "foreignData": [],
+  "frameVersion": "1993",
+  "hasFoil": false,
+  "hasNonFoil": true,
+  "isStarter": true,
+  "layout": "normal",
+  "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+  },
+  "manaCost": "{2}{W}{W}{W}",
+  "name": "Abbey Gargoyles",
+  "number": "bl1sb",
+  "power": "3",
+  "printings": [
+      "5ED",
+      "HML",
+      "ME2",
+      "PTC"
+  ],
+  "rarity": "uncommon",
+  "rulings": [],
+  "scryfallId": "b1fe1429-d008-4a41-b16f-b823d5979026",
+  "scryfallIllustrationId": "495fb7c9-3571-4a96-8ccf-36d0d7a8b3e3",
+  "scryfallOracleId": "c208b959-d0e4-4a9a-8255-2c7cc7596767",
+  "subtypes": [
+      "Gargoyle"
+  ],
+  "supertypes": [],
+  "text": "Flying, protection from red",
+  "toughness": "4",
+  "type": "Creature â€” Gargoyle",
+  "types": [
+      "Creature"
+  ],
+  "uuid": "d49e066a-56d6-510f-9caa-8077f010ea5b",
+  "variations": [
+      "a4b641b0-67ba-5c35-bcca-4a8111a898a7"
+  ]
+}

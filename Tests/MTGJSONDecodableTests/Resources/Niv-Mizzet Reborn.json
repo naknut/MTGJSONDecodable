@@ -1,0 +1,162 @@
+{
+    "artist": "Raymond Swanland",
+    "borderColor": "black",
+    "colorIdentity": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+    ],
+    "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+    ],
+    "convertedManaCost": 5.0,
+    "foreignData": [
+        {
+            "language": "German",
+            "multiverseId": 461399,
+            "name": "Niv-Mizzet der Auferstandene",
+            "text": "Fliegend\nWenn Niv-Mizzet der Auferstandene ins Spiel kommt, decke die obersten zehn Karten deiner Bibliothek auf. Bestimme davon fÃ¼r jedes Farbenpaar eine Karte mit genau diesen Farben. Nimm die bestimmten Karten auf deine Hand und lege den Rest in zufÃ¤lliger Reihenfolge unter deine Bibliothek.",
+            "type": "LegendÃ¤re Kreatur â€” Drache, Avatar"
+        },
+        {
+            "language": "Spanish",
+            "multiverseId": 461663,
+            "name": "Niv-MÃ­zzet renacido",
+            "text": "Vuela.\nCuando Niv-MÃ­zzet renacido entre al campo de batalla, muestra las diez primeras cartas de tu biblioteca. Por cada par de color, elige una carta que sea exactamente de esos colores que se encuentre entre ellas. Pon las cartas elegidas en tu mano y el resto en el fondo de tu biblioteca en un orden aleatorio.",
+            "type": "Criatura legendaria â€” Avatar dragÃ³n"
+        },
+        {
+            "language": "French",
+            "multiverseId": 461927,
+            "name": "Niv-Mizzet revenu Ã  la vie",
+            "text": "Vol\nQuand Niv-Mizzet revenu Ã  la vie arrive sur le champ de bataille, rÃ©vÃ©lez les dix cartes du dessus de votre bibliothÃ¨que. Pour chaque paire de couleurs, choisissez une carte qui a exactement ces couleurs parmi elles. Mettez les cartes choisies dans votre main et le reste au-dessous de votre bibliothÃ¨que dans un ordre alÃ©atoire.",
+            "type": "CrÃ©ature lÃ©gendaire : dragon et avatar"
+        },
+        {
+            "language": "Italian",
+            "multiverseId": 462191,
+            "name": "Niv-Mizzet Rinato",
+            "text": "Volare\nQuando Niv-Mizzet Rinato entra nel campo di battaglia, rivela le prime dieci carte del tuo grimorio. Per ogni coppia di colori, scegli tra esse una carta che Ã¨ esattamente di quei colori. Aggiungi le carte scelte alla tua mano e metti le altre in fondo al tuo grimorio in ordine casuale.",
+            "type": "Creatura Leggendaria â€” Avatar Drago"
+        },
+        {
+            "language": "Japanese",
+            "multiverseId": 462455,
+            "name": "ãƒ‹ãƒ´ï¼ãƒŸã‚¼ãƒƒãƒˆå†èª•",
+            "text": "é£›è¡Œ\nãƒ‹ãƒ´ï¼ãƒŸã‚¼ãƒƒãƒˆå†èª•ãŒæˆ¦å ´ã«å‡ºãŸã¨ãã€ã‚ãªãŸã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã®ä¸€ç•ªä¸Šã‹ã‚‰ã‚«ãƒ¼ãƒ‰ã‚’10æžšå…¬é–‹ã™ã‚‹ã€‚ãã®ä¸­ã‹ã‚‰ã€è‰²ï¼’è‰²ã®çµ„ï¼‘çµ„ã«ã¤ãã€ã¡ã‚‡ã†ã©ãã®ï¼’è‰²ã§ã‚ã‚‹ã‚«ãƒ¼ãƒ‰ï¼‘æžšã‚’é¸ã¶ã€‚é¸ã°ã‚ŒãŸã‚«ãƒ¼ãƒ‰ã‚’ã‚ãªãŸã®æ‰‹æœ­ã«åŠ ãˆã€æ®‹ã‚Šã‚’ã‚ãªãŸã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã®ä¸€ç•ªä¸‹ã«ç„¡ä½œç‚ºã®é †ç•ªã§ç½®ãã€‚",
+            "type": "ä¼èª¬ã®ã‚¯ãƒªãƒ¼ãƒãƒ£ãƒ¼ â€” ãƒ‰ãƒ©ã‚´ãƒ³ãƒ»ã‚¢ãƒã‚¿ãƒ¼"
+        },
+        {
+            "language": "Korean",
+            "multiverseId": 462719,
+            "name": "ë‹¤ì‹œ íƒœì–´ë‚œ ë‹ˆë¸Œ-ë¯¸ì ¯",
+            "text": "ë¹„í–‰\në‹¤ì‹œ íƒœì–´ë‚œ ë‹ˆë¸Œ-ë¯¸ì ¯ì´ ì „ìž¥ì— ë“¤ì–´ì˜¬ ë•Œ, ë‹¹ì‹ ì˜ ì„œê³  ë§¨ ìœ„ ì¹´ë“œ ì—´ ìž¥ì„ ê³µê°œí•œë‹¤. ê·¸ ì¹´ë“œë“¤ ì¤‘, ê° 2ìƒ‰ ì¡°í•©ì— ì •í™•ížˆ ë“¤ì–´ë§žëŠ” ì¹´ë“œë¥¼ í•œ ìž¥ì”© ì„ íƒí•œë‹¤. ì„ íƒëœ ì¹´ë“œë“¤ì„ ë‹¹ì‹ ì˜ ì†ìœ¼ë¡œ ê°€ì ¸ê°€ê³  ë‚˜ë¨¸ì§€ ì¹´ë“œë“¤ì€ ë‹¹ì‹ ì˜ ì„œê³  ë§¨ ë°‘ì— ë¬´ìž‘ìœ„ë¡œ ë†“ëŠ”ë‹¤.",
+            "type": "ì „ì„¤ì  ìƒë¬¼ â€” ìš© í™”ì‹ "
+        },
+        {
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 462983,
+            "name": "Niv-Mizzet Renascido",
+            "text": "Voar\nQuando Niv-Mizzet Renascido entrar no campo de batalha, revele os dez cards do topo de seu grimÃ³rio. Para cada par de cores, escolha dentre eles um card que tenha exatamente aquelas cores. Coloque os cards escolhidos em sua mÃ£o e o restante no fundo de seu grimÃ³rio em ordem aleatÃ³ria.",
+            "type": "Criatura LendÃ¡ria â€” DragÃ£o Avatar"
+        },
+        {
+            "language": "Russian",
+            "multiverseId": 463247,
+            "name": "ÐÐ¸Ð²-ÐœÐ¸Ð·Ð·ÐµÑ‚, ÐŸÐµÑ€ÐµÑ€Ð¾Ð´Ð¸Ð²ÑˆÐ¸Ð¹ÑÑ",
+            "text": "ÐŸÐ¾Ð»ÐµÑ‚\nÐšÐ¾Ð³Ð´Ð° ÐÐ¸Ð²-ÐœÐ¸Ð·Ð·ÐµÑ‚, ÐŸÐµÑ€ÐµÑ€Ð¾Ð´Ð¸Ð²ÑˆÐ¸Ð¹ÑÑ Ð²Ñ‹Ñ…Ð¾Ð´Ð¸Ñ‚ Ð½Ð° Ð¿Ð¾Ð»Ðµ Ð±Ð¸Ñ‚Ð²Ñ‹, Ð¿Ð¾ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ð´ÐµÑÑÑ‚ÑŒ Ð²ÐµÑ€Ñ…Ð½Ð¸Ñ… ÐºÐ°Ñ€Ñ‚ Ð²Ð°ÑˆÐµÐ¹ Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐ¸. Ð”Ð»Ñ ÐºÐ°Ð¶Ð´Ð¾Ð¹ Ð¿Ð°Ñ€Ñ‹ Ñ†Ð²ÐµÑ‚Ð¾Ð² Ð²Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÑƒÑŽÑÑ ÑÑ€ÐµÐ´Ð¸ Ð½Ð¸Ñ… ÐºÐ°Ñ€Ñ‚Ñƒ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ ÑÑ‚Ð¸Ñ… Ð´Ð²ÑƒÑ… Ñ†Ð²ÐµÑ‚Ð¾Ð². ÐŸÐ¾Ð»Ð¾Ð¶Ð¸Ñ‚Ðµ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð½Ñ‹Ðµ ÐºÐ°Ñ€Ñ‚Ñ‹ Ð² Ð²Ð°ÑˆÑƒ Ñ€ÑƒÐºÑƒ, Ð° Ð¾ÑÑ‚Ð°Ð»ÑŒÐ½Ñ‹Ðµ â€” Ð² Ð½Ð¸Ð· Ð²Ð°ÑˆÐµÐ¹ Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐ¸ Ð² ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ð¾Ð¼ Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ.",
+            "type": "Ð›ÐµÐ³ÐµÐ½Ð´Ð°Ñ€Ð½Ð¾Ðµ Ð¡ÑƒÑ‰ÐµÑÑ‚Ð²Ð¾ â€” Ð”Ñ€Ð°ÐºÐ¾Ð½ ÐÐ²Ð°Ñ‚Ð°Ñ€Ð°"
+        },
+        {
+            "language": "Chinese Simplified",
+            "multiverseId": 463511,
+            "name": "æ–°ç”Ÿå°¼ç±³æ·",
+            "text": "é£žè¡Œ\nå½“æ–°ç”Ÿå°¼ç±³æ·è¿›æˆ˜åœºæ—¶ï¼Œå±•ç¤ºä½ ç‰Œåº“é¡¶çš„åå¼ ç‰Œã€‚ä»Žä¸­ä¸ºæ¯ç»„åŒè‰²è‰²ç»„å„é€‰æ‹©ä¸€å¼ é¢œè‰²æ­£å¥½ä¸ºè¯¥è‰²ç»„çš„ç‰Œã€‚å°†æ‰€é€‰çš„ç‰Œç½®äºŽä½ æ‰‹ä¸Šï¼Œå¹¶å°†å…¶ä½™çš„ç‰Œä»¥éšæœºé¡ºåºç½®äºŽä½ çš„ç‰Œåº“åº•ã€‚",
+            "type": "ä¼ å¥‡ç”Ÿç‰© ï½žé¾™ï¼åœ£è€…"
+        },
+        {
+            "language": "Chinese Traditional",
+            "multiverseId": 463775,
+            "name": "æ–°ç”Ÿå°¼ç±³æ·",
+            "text": "é£›è¡Œ\nç•¶æ–°ç”Ÿå°¼ç±³æ·é€²æˆ°å ´æ™‚ï¼Œå±•ç¤ºä½ ç‰Œåº«é ‚çš„åå¼µç‰Œã€‚å¾žä¸­ç‚ºæ¯çµ„é›™è‰²è‰²çµ„å„é¸æ“‡ä¸€å¼µé¡è‰²æ­£å¥½ç‚ºè©²è‰²çµ„çš„ç‰Œã€‚å°‡æ‰€é¸çš„ç‰Œç½®æ–¼ä½ æ‰‹ä¸Šï¼Œä¸¦å°‡å…¶é¤˜çš„ç‰Œä»¥éš¨æ©Ÿé †åºç½®æ–¼ä½ çš„ç‰Œåº«åº•ã€‚",
+            "type": "å‚³å¥‡ç”Ÿç‰© ï½žé¾ï¼è–è€…"
+        }
+    ],
+    "frameVersion": "2015",
+    "hasFoil": true,
+    "hasNonFoil": true,
+    "layout": "normal",
+    "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "frontier": "Legal",
+        "future": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "standard": "Legal",
+        "vintage": "Legal"
+    },
+    "manaCost": "{W}{U}{B}{R}{G}",
+    "mcmId": 372213,
+    "mcmMetaId": 269549,
+    "mtgstocksId": 48218,
+    "multiverseId": 461135,
+    "name": "Niv-Mizzet Reborn",
+    "number": "208",
+    "originalText": "Flying\nWhen Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order.",
+    "originalType": "Legendary Creature â€” Dragon Avatar",
+    "power": "6",
+    "prices": {
+        "paper": {
+            "2019-04-17": 4.93,
+            "2019-04-24": 2.85,
+            "2019-05-01": 2.96,
+            "2019-05-08": 2.53
+        }
+    },
+    "printings": [
+        "PWAR",
+        "WAR"
+    ],
+    "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/2f50fdfb3d150f35",
+        "mtgstocks": "https://mtgjson.com/links/3378f23f60e6d537",
+        "tcgplayer": "https://mtgjson.com/links/580c565215e5b0b5"
+    },
+    "rarity": "mythic",
+    "rulings": [
+        {
+            "date": "2019-05-03",
+            "text": "A â€œcolor pairâ€ is exactly two colors. There are ten color pairs in Magic: white-blue, white-black, blue-black, blue-red, black-red, black-green, red-green, red-white, green-white, and green-blue."
+        },
+        {
+            "date": "2019-05-03",
+            "text": "If the top ten cards of your library donâ€™t contain all ten color pairs, you choose as many cards as you can and put those cards into your hand."
+        }
+    ],
+    "scryfallId": "56a2609d-b535-400b-81d9-72989a33c70f",
+    "scryfallIllustrationId": "0ea54a23-5660-4c2f-85f6-54fca99a5d29",
+    "scryfallOracleId": "10764b35-5c6c-4161-8579-1124d5963a0e",
+    "subtypes": [
+        "Dragon",
+        "Avatar"
+    ],
+    "supertypes": [
+        "Legendary"
+    ],
+    "tcgplayerProductId": 188514,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/580c565215e5b0b5",
+    "text": "Flying\nWhen Niv-Mizzet Reborn enters the battlefield, reveal the top ten cards of your library. For each color pair, choose a card that's exactly those colors from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order.",
+    "toughness": "6",
+    "type": "Legendary Creature â€” Dragon Avatar",
+    "types": [
+        "Creature"
+    ],
+    "uuid": "525d2c93-1c47-58d6-8644-64206493ef8c"
+}

@@ -1,0 +1,214 @@
+{
+    "artist": "Svetlin Velinov",
+    "borderColor": "black",
+    "colorIdentity": [
+        "B",
+        "R",
+        "U"
+    ],
+    "colorIndicator": [
+        "B",
+        "R",
+        "U"
+    ],
+    "colors": [
+        "B",
+        "R",
+        "U"
+    ],
+    "convertedManaCost": 4.0,
+    "faceConvertedManaCost": 0,
+    "foreignData": [
+        {
+            "language": "German",
+            "multiverseId": 447635,
+            "name": "Nicol Bolas, der Emporgestiegene",
+            "text": "+2: Ziehe zwei Karten.\nâˆ’3: Nicol Bolas, der Emporgestiegene, fÃ¼gt einer Kreatur oder einem Planeswalker deiner Wahl 10 Schadenspunkte zu.\nâˆ’4: Bringe eine Kreaturen- oder Planeswalkerkarte deiner Wahl aus einem Friedhof unter deiner Kontrolle ins Spiel.\nâˆ’12: Schicke alle bis auf die unterste Karte der Bibliothek eines Spielers deiner Wahl ins Exil.",
+            "type": "LegendÃ¤rer Planeswalker â€” Bolas"
+        },
+        {
+            "language": "Spanish",
+            "multiverseId": 447916,
+            "name": "Nicol Bolas, el Resurgido",
+            "text": "+2: Roba dos cartas.\nâˆ’3: Nicol Bolas, el Resurgido hace 10 puntos de daÃ±o a la criatura o planeswalker objetivo.\nâˆ’4: Pon en el campo de batalla bajo tu control la carta de criatura o planeswalker objetivo de un cementerio.\nâˆ’12: Exilia todas las cartas de la biblioteca del jugador objetivo excepto la Ãºltima.",
+            "type": "Planeswalker legendario â€” Bolas"
+        },
+        {
+            "language": "French",
+            "multiverseId": 448197,
+            "name": "Nicol Bolas, le transcendÃ©",
+            "text": "+2 : Piochez deux cartes.\n-3 : Nicol Bolas, le transcendÃ© inflige 10 blessures Ã  une cible, crÃ©ature ou planeswalker.\n-4 : Mettez sur le champ de bataille, sous votre contrÃ´le, une carte de crÃ©ature ou de planeswalker ciblÃ©e depuis un cimetiÃ¨re.\n-12 : Exilez toutes les cartes de la bibliothÃ¨que du joueur ciblÃ© Ã  l'exception de la carte du dessous.",
+            "type": "Planeswalker lÃ©gendaire : Bolas"
+        },
+        {
+            "language": "Italian",
+            "multiverseId": 448478,
+            "name": "Nicol Bolas, l'Asceso",
+            "text": "+2: Pesca due carte.\n-3: Nicol Bolas, l'Asceso infligge 10 danni a una creatura o a un planeswalker bersaglio.\n-4: Metti sul campo di battaglia sotto il tuo controllo una carta creatura o planeswalker bersaglio da un cimitero.\n-12: Esilia tutte le carte del grimorio di un giocatore bersaglio tranne l'ultima.",
+            "type": "Planeswalker Leggendario â€” Bolas"
+        },
+        {
+            "language": "Japanese",
+            "multiverseId": 448759,
+            "name": "è¦šé†’ã®é¾ã€ãƒ‹ã‚³ãƒ«ãƒ»ãƒœãƒ¼ãƒ©ã‚¹",
+            "text": "+2ï¼šã‚«ãƒ¼ãƒ‰ã‚’ï¼’æžšå¼•ãã€‚\n-3ï¼šã‚¯ãƒªãƒ¼ãƒãƒ£ãƒ¼ï¼‘ä½“ã‹ãƒ—ãƒ¬ã‚¤ãƒ³ã‚ºã‚¦ã‚©ãƒ¼ã‚«ãƒ¼ï¼‘ä½“ã‚’å¯¾è±¡ã¨ã™ã‚‹ã€‚è¦šé†’ã®é¾ã€ãƒ‹ã‚³ãƒ«ãƒ»ãƒœãƒ¼ãƒ©ã‚¹ã¯ãã‚Œã«10ç‚¹ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’ä¸Žãˆã‚‹ã€‚\n-4ï¼šå¢“åœ°ã‹ã‚‰ã‚¯ãƒªãƒ¼ãƒãƒ£ãƒ¼ã‹ãƒ—ãƒ¬ã‚¤ãƒ³ã‚ºã‚¦ã‚©ãƒ¼ã‚«ãƒ¼ã§ã‚ã‚‹ã‚«ãƒ¼ãƒ‰ï¼‘æžšã‚’å¯¾è±¡ã¨ã—ã€ãã‚Œã‚’ã‚ãªãŸã®ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ä¸‹ã§æˆ¦å ´ã«å‡ºã™ã€‚\n-12ï¼šãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ï¼‘äººã‚’å¯¾è±¡ã¨ã—ã€ãã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã®ä¸€ç•ªä¸‹ä»¥å¤–ã®ã‚«ãƒ¼ãƒ‰ã‚’ã™ã¹ã¦è¿½æ”¾ã™ã‚‹ã€‚",
+            "type": "ä¼èª¬ã®ãƒ—ãƒ¬ã‚¤ãƒ³ã‚ºã‚¦ã‚©ãƒ¼ã‚«ãƒ¼ â€” ãƒœãƒ¼ãƒ©ã‚¹"
+        },
+        {
+            "language": "Korean",
+            "multiverseId": 449040,
+            "name": "ë¶€í™œìž, ë‹ˆì½œ ë³¼ë¼ìŠ¤",
+            "text": "+2: ì¹´ë“œ ë‘ ìž¥ì„ ë½‘ëŠ”ë‹¤.\nâˆ’3: ìƒë¬¼ì´ë‚˜ í”Œë ˆì¸ì¦ˆì›Œì»¤ë¥¼ ëª©í‘œë¡œ ì •í•œë‹¤. ë¶€í™œìž, ë‹ˆì½œ ë³¼ë¼ìŠ¤ëŠ” ê·¸ ëª©í‘œì—ê²Œ í”¼í•´ 10ì ì„ ìž…ížŒë‹¤.\nâˆ’4: ë¬´ë¤ì— ìžˆëŠ” ìƒë¬¼ ë˜ëŠ” í”Œë ˆì¸ì¦ˆì›Œì»¤ ì¹´ë“œë¥¼ ëª©í‘œë¡œ ì •í•œë‹¤. ê·¸ ì¹´ë“œë¥¼ ë‹¹ì‹ ì˜ ì¡°ì¢…í•˜ì— ì „ìž¥ì— ë†“ëŠ”ë‹¤.\nâˆ’12: í”Œë ˆì´ì–´ë¥¼ ëª©í‘œë¡œ ì •í•œë‹¤. ê·¸ í”Œë ˆì´ì–´ì˜ ì„œê³ ì—ì„œ ë§¨ ë°‘ ì¹´ë“œ í•œ ìž¥ì„ ì œì™¸í•œ ëª¨ë“  ì¹´ë“œë¥¼ ì¶”ë°©í•œë‹¤.",
+            "type": "ì „ì„¤ì  í”Œë ˆì¸ì¦ˆì›Œì»¤ â€” ë³¼ë¼ìŠ¤"
+        },
+        {
+            "language": "Portuguese (Brazil)",
+            "multiverseId": 449321,
+            "name": "Nicol Bolas, o Erguido",
+            "text": "+2: Compre dois cards.\nâˆ’3: Nicol Bolas, o Erguido, causa 10 pontos de dano Ã  criatura ou ao planeswalker alvo.\nâˆ’4: Coloque o card de criatura ou planeswalker alvo de um cemitÃ©rio no campo de batalha sob o seu controle.\nâˆ’12: Exile todos os cards exceto o Ãºltimo do grimÃ³rio do jogador alvo.",
+            "type": "Planeswalker LendÃ¡rio â€” Nicol Bolas"
+        },
+        {
+            "language": "Russian",
+            "multiverseId": 449602,
+            "name": "ÐÐ¸ÐºÐ¾Ð» Ð‘Ð¾Ð»Ð°Ñ, Ð’Ð¾Ð·Ð²Ñ‹ÑÐ¸Ð²ÑˆÐ¸Ð¹ÑÑ",
+            "text": "+2: Ð²Ð¾Ð·ÑŒÐ¼Ð¸Ñ‚Ðµ Ð´Ð²Ðµ ÐºÐ°Ñ€Ñ‚Ñ‹.\nâˆ’3: ÐÐ¸ÐºÐ¾Ð» Ð‘Ð¾Ð»Ð°Ñ, Ð’Ð¾Ð·Ð²Ñ‹ÑÐ¸Ð²ÑˆÐ¸Ð¹ÑÑ Ð½Ð°Ð½Ð¾ÑÐ¸Ñ‚ 10 Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´ÐµÐ½Ð¸Ð¹ Ñ†ÐµÐ»ÐµÐ²Ð¾Ð¼Ñƒ ÑÑƒÑ‰ÐµÑÑ‚Ð²Ñƒ Ð¸Ð»Ð¸ planeswalker-Ñƒ.\nâˆ’4: Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚Ðµ Ñ†ÐµÐ»ÐµÐ²ÑƒÑŽ ÐºÐ°Ñ€Ñ‚Ñƒ ÑÑƒÑ‰ÐµÑÑ‚Ð²Ð° Ð¸Ð»Ð¸ planeswalker-Ð° Ð¸Ð· ÐºÐ»Ð°Ð´Ð±Ð¸Ñ‰Ð° Ð½Ð° Ð¿Ð¾Ð»Ðµ Ð±Ð¸Ñ‚Ð²Ñ‹ Ð¿Ð¾Ð´ Ð²Ð°ÑˆÐ¸Ð¼ ÐºÐ¾Ð½Ñ‚Ñ€Ð¾Ð»ÐµÐ¼.\nâ€”12: Ð¸Ð·Ð³Ð¾Ð½Ð¸Ñ‚Ðµ Ð²ÑÐµ ÐºÐ°Ñ€Ñ‚Ñ‹ Ð¸Ð· Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐ¸ Ñ†ÐµÐ»ÐµÐ²Ð¾Ð³Ð¾ Ð¸Ð³Ñ€Ð¾ÐºÐ°, ÐºÑ€Ð¾Ð¼Ðµ Ð½Ð¸Ð¶Ð½ÐµÐ¹.",
+            "type": "Ð›ÐµÐ³ÐµÐ½Ð´Ð°Ñ€Ð½Ñ‹Ð¹ Planeswalker â€” Ð‘Ð¾Ð»Ð°Ñ"
+        },
+        {
+            "language": "Chinese Simplified",
+            "multiverseId": 449883,
+            "name": "é£žå‡å°¼å¯æ³¢æ‹‰æ–¯",
+            "text": "+2ï¼šæŠ“ä¸¤å¼ ç‰Œã€‚\nâˆ’3ï¼šé£žå‡å°¼å¯æ³¢æ‹‰æ–¯å¯¹ç›®æ ‡ç”Ÿç‰©æˆ–é¹æ´›å®¢é€ æˆ10ç‚¹ä¼¤å®³ã€‚\nâˆ’4ï¼šå°†ç›®æ ‡ç”Ÿç‰©æˆ–é¹æ´›å®¢ç‰Œåœ¨ä½ çš„æ“æŽ§ä¸‹ä»ŽåŸå¢“åœºæ”¾è¿›æˆ˜åœºã€‚\nâˆ’12ï¼šæ”¾é€ç›®æ ‡ç‰Œæ‰‹ç‰Œåº“ä¸­é™¤äº†æœ€åŽä¸€å¼ ä»¥å¤–çš„æ‰€æœ‰ç‰Œã€‚",
+            "type": "ä¼ å¥‡é¹æ´›å®¢ ï½žæ³¢æ‹‰æ–¯"
+        },
+        {
+            "language": "Chinese Traditional",
+            "multiverseId": 450164,
+            "name": "é£›æ˜‡å°¼å¯æ³¢æ‹‰æ–¯",
+            "text": "+2ï¼šæŠ½å…©å¼µç‰Œã€‚\nâˆ’3ï¼šé£›æ˜‡å°¼å¯æ³¢æ‹‰æ–¯å°ç›®æ¨™ç”Ÿç‰©æˆ–éµ¬æ´›å®¢é€ æˆ10é»žå‚·å®³ã€‚\nâˆ’4ï¼šå°‡ç›®æ¨™ç”Ÿç‰©æˆ–éµ¬æ´›å®¢ç‰Œåœ¨ä½ çš„æ“æŽ§ä¸‹å¾žå¢³å¢“å ´æ”¾é€²æˆ°å ´ã€‚\nâˆ’12ï¼šæ”¾é€ç›®æ¨™çŽ©å®¶ç‰Œåº«ä¸­é™¤äº†æœ€å¾Œä¸€å¼µä»¥å¤–çš„æ‰€æœ‰ç‰Œã€‚",
+            "type": "å‚³å¥‡éµ¬æ´›å®¢ ï½žæ³¢æ‹‰æ–¯"
+        }
+    ],
+    "frameEffect": "originpwdfc",
+    "frameVersion": "2015",
+    "hasFoil": true,
+    "hasNonFoil": true,
+    "layout": "transform",
+    "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "frontier": "Legal",
+        "future": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "standard": "Legal",
+        "vintage": "Legal"
+    },
+    "loyalty": "7",
+    "mcmId": 359859,
+    "mcmMetaId": 263246,
+    "mtgstocksId": 39044,
+    "multiverseId": 447355,
+    "name": "Nicol Bolas, the Arisen",
+    "names": [
+        "Nicol Bolas, the Ravager",
+        "Nicol Bolas, the Arisen"
+    ],
+    "number": "218",
+    "originalText": "+2: Draw two cards.\nâˆ’3: Nicol Bolas, the Arisen deals 10 damage to target creature or planeswalker.\nâˆ’4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control.\nâˆ’12: Exile all but the bottom card of target player's library.",
+    "originalType": "Legendary Planeswalker â€” Bolas",
+    "prices": {
+        "paper": {
+            "2019-01-23": 22.99,
+            "2019-01-30": 22.0,
+            "2019-02-06": 22.0,
+            "2019-02-13": 20.74,
+            "2019-02-20": 20.66,
+            "2019-02-27": 20.0,
+            "2019-03-06": 19.99,
+            "2019-03-13": 19.92,
+            "2019-03-20": 19.7,
+            "2019-03-27": 19.66,
+            "2019-04-03": 19.19,
+            "2019-04-10": 19.5,
+            "2019-04-17": 20.0,
+            "2019-04-24": 20.82,
+            "2019-05-01": 22.15,
+            "2019-05-08": 37.36
+        }
+    },
+    "printings": [
+        "M19",
+        "PM19"
+    ],
+    "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/b3efa63a7cc14558",
+        "mtgstocks": "https://mtgjson.com/links/96f036b1e635b1ae",
+        "tcgplayer": "https://mtgjson.com/links/c1f853f21b519430"
+    },
+    "rarity": "mythic",
+    "rulings": [
+        {
+            "date": "2018-07-13",
+            "text": "When Nicol Bolasâ€™s enters-the-battlefield triggered ability resolves, first the next opponent in turn order (or, if itâ€™s an opponentâ€™s turn, that opponent) chooses a card in their hand without revealing it, then each other opponent in turn order does the same. Then all the chosen cards are discarded at the same time."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "If Nicol Bolas leaves the battlefield after his creature faceâ€™s activated ability has been activated but before it resolves, the card remains in whichever zone it moves to. It wonâ€™t be exiled or return transformed."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "Each face of a double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced card is on the battlefield, consider only the characteristics of the face thatâ€™s currently up. The other set of characteristics is ignored."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "While a double-faced card isnâ€™t on the battlefield, consider only the characteristics of its front face. For example, Nicol Bolas has the characteristics of its creature face in the graveyard, even if it was a planeswalker on the battlefield before it was put into the graveyard."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "A double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed, in which case it enters with its back face up. The back face of a double-faced card canâ€™t be played."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "If another permanent that isnâ€™t a double-faced card (such as Mirror Image) becomes a copy of Nicol Bolas, the Ravager, activating the ability to exile it and return it transformed will only exile it. It wonâ€™t return to the battlefield at all."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Nicol Bolasâ€™s third loyalty ability that came from other playersâ€™ graveyards are exiled."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "The converted mana cost of a double-faced card is the converted mana cost of its front face, even while itâ€™s on the battlefield with its back face up. For example, the converted mana cost of Nicol Bolas, the Arisen is 4."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "Nicol Bolas, the Arisen has a color indicator on its typeline. This color indicator means that itâ€™s a blue, black, and red permanent."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "You can activate one of the planeswalkerâ€™s loyalty abilities the turn it enters the battlefield."
+        },
+        {
+            "date": "2018-07-13",
+            "text": "In some rare cases, a spell or ability may cause Nicol Bolas to transform while itâ€™s a creature on the battlefield. If this happens, the resulting planeswalker wonâ€™t have any loyalty counters on it and will subsequently be put into its ownerâ€™s graveyard."
+        }
+    ],
+    "scryfallId": "7b215968-93a6-4278-ac61-4e3e8c3c3943",
+    "scryfallOracleId": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+    "side": "b",
+    "subtypes": [
+        "Bolas"
+    ],
+    "supertypes": [
+        "Legendary"
+    ],
+    "tcgplayerProductId": 168740,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/c1f853f21b519430",
+    "text": "+2: Draw two cards.\nâˆ’3: Nicol Bolas, the Arisen deals 10 damage to target creature or planeswalker.\nâˆ’4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control.\nâˆ’12: Exile all but the bottom card of target player's library.",
+    "type": "Legendary Planeswalker â€” Bolas",
+    "types": [
+        "Planeswalker"
+    ],
+    "uuid": "19ade069-45aa-5137-b4b7-afdde5f864d3"
+}

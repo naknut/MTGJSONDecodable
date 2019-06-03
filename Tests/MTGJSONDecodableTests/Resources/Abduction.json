@@ -1,0 +1,111 @@
+{
+  "artist": "Colin MacNeil",
+  "borderColor": "white",
+  "colorIdentity": [
+      "U"
+  ],
+  "colors": [
+      "U"
+  ],
+  "convertedManaCost": 4.0,
+  "foreignData": [
+      {
+          "language": "German",
+          "name": "EntfÃ¼hrung",
+          "text": "Wenn die EntfÃ¼hrung ins Spiel kommt, enttappe die verzauberte Kreatur.\nDu kontrollierst die verzauberte Kreatur.\nWenn die verzauberte Kreatur auf den Friedhof gelegt wird, bringe die Kreatur unter der Kontrolle ihres Besitzers ins Spiel.",
+          "type": "Kreaturenverzauberung"
+      },
+      {
+          "language": "Spanish",
+          "name": "Secuestro"
+      },
+      {
+          "language": "French",
+          "name": "Rapt"
+      },
+      {
+          "language": "Italian",
+          "name": "Rapimento"
+      },
+      {
+          "language": "Japanese",
+          "name": "èª˜æ‹"
+      },
+      {
+          "language": "Portuguese (Brazil)",
+          "name": "AbduÃ§Ã£o"
+      }
+  ],
+  "frameVersion": "1997",
+  "hasFoil": false,
+  "hasNonFoil": true,
+  "layout": "normal",
+  "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+  },
+  "manaCost": "{2}{U}{U}",
+  "mcmId": 10898,
+  "mcmMetaId": 5,
+  "mtgstocksId": 14320,
+  "multiverseId": 14526,
+  "name": "Abduction",
+  "number": "55",
+  "originalText": "When Abduction comes into play, untap enchanted creature.\nYou control enchanted creature.\nWhen enchanted creature is put into a graveyard, return that creature to play under its owner's control.",
+  "originalType": "Enchant Creature",
+  "prices": {
+      "paper": {
+          "2019-01-23": 0.32,
+          "2019-01-30": 0.31,
+          "2019-02-06": 0.32,
+          "2019-02-13": 0.32,
+          "2019-02-20": 0.32,
+          "2019-02-27": 0.32,
+          "2019-03-06": 0.32,
+          "2019-03-13": 0.32,
+          "2019-03-20": 0.32,
+          "2019-03-27": 0.32,
+          "2019-04-03": 0.32,
+          "2019-04-10": 0.32,
+          "2019-04-17": 0.31,
+          "2019-04-24": 0.31,
+          "2019-05-01": 0.31,
+          "2019-05-08": 0.31
+      }
+  },
+  "printings": [
+      "6ED",
+      "WC97",
+      "WTH"
+  ],
+  "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/fda7e7fe10f6c038",
+      "mtgstocks": "https://mtgjson.com/links/8dddffc841664a52",
+      "tcgplayer": "https://mtgjson.com/links/4fbb9cf6972a100c"
+  },
+  "rarity": "uncommon",
+  "rulings": [
+      {
+          "date": "2009-10-01",
+          "text": "Abduction may be cast targeting an untapped creature."
+      }
+  ],
+  "scryfallId": "63c82bef-50d6-4d25-bc3f-dda2826fc99c",
+  "scryfallIllustrationId": "32698275-3e51-4f26-92bf-ee89101339b8",
+  "scryfallOracleId": "d0e1904e-1a37-41f6-8582-b9ea794bb886",
+  "subtypes": [
+      "Aura"
+  ],
+  "supertypes": [],
+  "tcgplayerProductId": 2460,
+  "tcgplayerPurchaseUrl": "https://mtgjson.com/links/4fbb9cf6972a100c",
+  "text": "Enchant creature\nWhen Abduction enters the battlefield, untap enchanted creature.\nYou control enchanted creature.\nWhen enchanted creature dies, return that card to the battlefield under its owner's control.",
+  "type": "Enchantment â€” Aura",
+  "types": [
+      "Enchantment"
+  ],
+  "uuid": "84b963e8-f0a3-59aa-b935-83000851a735"
+}

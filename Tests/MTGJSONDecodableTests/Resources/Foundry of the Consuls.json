@@ -1,0 +1,87 @@
+{
+  "artist": "Sam Burley",
+  "borderColor": "black",
+  "colorIdentity": [],
+  "colors": [],
+  "convertedManaCost": 0.0,
+  "duelDeck": "b",
+  "flavorText": "All around the foundry, automatons unhitched themselves from their mounts and pivoted to face Chandra.",
+  "foreignData": [
+      {
+          "flavorText": "é‹³é€ æ‰€ã®ã‚ã¡ã‚‰ã“ã¡ã‚‰ã§ã€è‡ªå‹•æ©Ÿæ¢°ãŸã¡ã¯è‡ªã‚‰ã‚’å°åº§ã‹ã‚‰å–ã‚Šå¤–ã—ã€æ—‹å›žã—ã¦ãƒãƒ£ãƒ³ãƒ‰ãƒ©ã®æ–¹ã‚’å‘ã„ãŸã€‚",
+          "language": "Japanese",
+          "multiverseId": 442878,
+          "name": "é ˜äº‹ã®é‹³é€ æ‰€",
+          "text": "{T}ï¼š{C}ã‚’åŠ ãˆã‚‹ã€‚\n{5}, {T}, é ˜äº‹ã®é‹³é€ æ‰€ã‚’ç”Ÿã‘è´„ã«æ§ã’ã‚‹ï¼šé£›è¡Œã‚’æŒã¤ç„¡è‰²ã®ï¼‘/ï¼‘ã®é£›è¡Œæ©Ÿæ¢°ãƒ»ã‚¢ãƒ¼ãƒ†ã‚£ãƒ•ã‚¡ã‚¯ãƒˆãƒ»ã‚¯ãƒªãƒ¼ãƒãƒ£ãƒ¼ãƒ»ãƒˆãƒ¼ã‚¯ãƒ³ã‚’ï¼’ä½“ç”Ÿæˆã™ã‚‹ã€‚",
+          "type": "åœŸåœ°"
+      }
+  ],
+  "frameVersion": "2015",
+  "hasFoil": false,
+  "hasNonFoil": true,
+  "isStarter": true,
+  "layout": "normal",
+  "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+  },
+  "mcmId": 320643,
+  "mcmMetaId": 220288,
+  "mtgstocksId": 37964,
+  "multiverseId": 442802,
+  "name": "Foundry of the Consuls",
+  "names": [],
+  "number": "66",
+  "originalText": "{T}: Add {C}.\n{5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying.",
+  "originalType": "Land",
+  "prices": {
+      "paper": {
+          "2019-01-23": 0.15,
+          "2019-01-30": 0.15,
+          "2019-02-06": 0.15,
+          "2019-02-13": 0.16,
+          "2019-02-20": 0.16,
+          "2019-02-27": 0.2,
+          "2019-03-06": 0.2,
+          "2019-03-13": 0.16,
+          "2019-03-20": 0.17,
+          "2019-03-27": 0.19,
+          "2019-04-03": 0.19,
+          "2019-04-10": 0.18,
+          "2019-04-17": 0.19,
+          "2019-04-24": 0.18,
+          "2019-05-01": 0.18,
+          "2019-05-08": 0.18
+      }
+  },
+  "printings": [
+      "C18",
+      "DDU",
+      "ORI"
+  ],
+  "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/f033475cca0db494",
+      "mtgstocks": "https://mtgjson.com/links/5e9ccfdc9ba325c7",
+      "tcgplayer": "https://mtgjson.com/links/d1844b29cb00096f"
+  },
+  "rarity": "uncommon",
+  "rulings": [],
+  "scryfallId": "7907175d-aa71-4c6b-8d44-026cb6b0f91c",
+  "scryfallIllustrationId": "03c44d2f-8add-4f9f-92f6-b4ae8823d55d",
+  "scryfallOracleId": "0498ea14-53d9-4655-a616-0ff3cf73de4e",
+  "subtypes": [],
+  "supertypes": [],
+  "tcgplayerProductId": 162886,
+  "tcgplayerPurchaseUrl": "https://mtgjson.com/links/d1844b29cb00096f",
+  "text": "{T}: Add {C}.\n{5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying.",
+  "type": "Land",
+  "types": [
+      "Land"
+  ],
+  "uuid": "e5c83cba-38a1-5d91-b494-854438597e50"
+}

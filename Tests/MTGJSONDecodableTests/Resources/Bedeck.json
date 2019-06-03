@@ -1,0 +1,164 @@
+{
+  "artist": "Randy Vargas",
+  "borderColor": "black",
+  "colorIdentity": [
+      "B",
+      "R"
+  ],
+  "colors": [
+      "B",
+      "R"
+  ],
+  "convertedManaCost": 8.0,
+  "faceConvertedManaCost": 2,
+  "foreignData": [
+      {
+          "language": "German",
+          "multiverseId": 457624,
+          "name": "Maskieren",
+          "text": "Eine Kreatur deiner Wahl erhÃ¤lt +3/-3 bis zum Ende des Zuges.",
+          "type": "Spontanzauber"
+      },
+      {
+          "language": "Spanish",
+          "multiverseId": 457883,
+          "name": "Engalanar",
+          "text": "La criatura objetivo obtiene +3/-3 hasta el final del turno.",
+          "type": "InstantÃ¡neo"
+      },
+      {
+          "language": "French",
+          "multiverseId": 458142,
+          "name": "Parer",
+          "text": "La crÃ©ature ciblÃ©e gagne +3/-3 jusqu'Ã  la fin du tour.",
+          "type": "Ã‰phÃ©mÃ¨re"
+      },
+      {
+          "language": "Italian",
+          "multiverseId": 458401,
+          "name": "Abbellire",
+          "text": "Una creatura bersaglio prende +3/-3 fino alla fine del turno.",
+          "type": "Istantaneo"
+      },
+      {
+          "language": "Japanese",
+          "multiverseId": 458660,
+          "name": "è±ªå¥¢",
+          "text": "ã‚¯ãƒªãƒ¼ãƒãƒ£ãƒ¼ï¼‘ä½“ã‚’å¯¾è±¡ã¨ã™ã‚‹ã€‚ã‚¿ãƒ¼ãƒ³çµ‚äº†æ™‚ã¾ã§ã€ãã‚Œã¯ï¼‹ï¼“/ï¼ï¼“ã®ä¿®æ•´ã‚’å—ã‘ã‚‹ã€‚",
+          "type": "ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ãƒˆ"
+      },
+      {
+          "language": "Korean",
+          "multiverseId": 458919,
+          "name": "ìž¥ì‹",
+          "text": "ìƒë¬¼ì„ ëª©í‘œë¡œ ì •í•œë‹¤. ê·¸ ìƒë¬¼ì€ í„´ì¢…ë£Œê¹Œì§€ +3/-3ì„ ë°›ëŠ”ë‹¤.",
+          "type": "ìˆœê°„ë§ˆë²•"
+      },
+      {
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 459178,
+          "name": "Embelezar",
+          "text": "A criatura alvo recebe +3/-3 atÃ© o final do turno.",
+          "type": "MÃ¡gica InstantÃ¢nea"
+      },
+      {
+          "language": "Russian",
+          "multiverseId": 459437,
+          "name": "Ð£ÐºÑ€Ð°ÑˆÐµÐ½Ð¸Ðµ",
+          "text": "Ð¦ÐµÐ»ÐµÐ²Ð¾Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²Ð¾ Ð¿Ð¾Ð»ÑƒÑ‡Ð°ÐµÑ‚ +3/-3 Ð´Ð¾ ÐºÐ¾Ð½Ñ†Ð° Ñ…Ð¾Ð´Ð°.",
+          "type": "ÐœÐ³Ð½Ð¾Ð²ÐµÐ½Ð½Ð¾Ðµ Ð·Ð°ÐºÐ»Ð¸Ð½Ð°Ð½Ð¸Ðµ"
+      },
+      {
+          "language": "Chinese Simplified",
+          "multiverseId": 459696,
+          "name": "æ‰®å¦†",
+          "text": "ç›®æ ‡ç”Ÿç‰©å¾—+3/-3ç›´åˆ°å›žåˆç»“æŸã€‚",
+          "type": "çž¬é—´"
+      },
+      {
+          "language": "Chinese Traditional",
+          "multiverseId": 459955,
+          "name": "æ‰®å¦",
+          "text": "ç›®æ¨™ç”Ÿç‰©å¾—+3/-3ç›´åˆ°å›žåˆçµæŸã€‚",
+          "type": "çž¬é–“"
+      }
+  ],
+  "frameVersion": "2015",
+  "hasFoil": true,
+  "hasNonFoil": true,
+  "layout": "split",
+  "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+  },
+  "manaCost": "{B/R}{B/R}",
+  "mcmId": 368400,
+  "mcmMetaId": 267697,
+  "mtgstocksId": 47627,
+  "multiverseId": 457365,
+  "name": "Bedeck",
+  "names": [
+      "Bedeck",
+      "Bedazzle"
+  ],
+  "number": "221",
+  "originalText": "Target creature gets +3/-3 until end of turn.",
+  "originalType": "Instant",
+  "prices": {
+      "paper": {
+          "2019-01-23": 0.49,
+          "2019-01-30": 0.3,
+          "2019-02-06": 0.26,
+          "2019-02-13": 0.29,
+          "2019-02-20": 0.25,
+          "2019-02-27": 0.25,
+          "2019-03-06": 0.25,
+          "2019-03-13": 0.25,
+          "2019-03-20": 0.25,
+          "2019-03-27": 0.25,
+          "2019-04-03": 0.28,
+          "2019-04-10": 0.29,
+          "2019-04-17": 0.25,
+          "2019-04-24": 0.25,
+          "2019-05-01": 0.25,
+          "2019-05-08": 0.25
+      }
+  },
+  "printings": [
+      "RNA"
+  ],
+  "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/c6e59e18b03a0240",
+      "mtgstocks": "https://mtgjson.com/links/91deb0877af75131",
+      "tcgplayer": "https://mtgjson.com/links/ee959aaafe772ba8"
+  },
+  "rarity": "rare",
+  "rulings": [
+      {
+          "date": "2019-01-25",
+          "text": "You canâ€™t cast Bedazzle without a target nonbasic land and a target opponent or planeswalker. If one of the targets is illegal when Bedazzle tries to resolve, the other is still affected as appropriate."
+      }
+  ],
+  "scryfallId": "b5873efa-d573-4435-81ad-48df2ca5c7f2",
+  "scryfallIllustrationId": "69851c5d-11b6-45f6-ac7f-3e20c5e84553",
+  "scryfallOracleId": "b8bb97a8-5f5d-48e9-a4c1-b4c20efe7739",
+  "side": "a",
+  "subtypes": [],
+  "supertypes": [],
+  "tcgplayerProductId": 183205,
+  "tcgplayerPurchaseUrl": "https://mtgjson.com/links/ee959aaafe772ba8",
+  "text": "Target creature gets +3/-3 until end of turn.",
+  "type": "Instant",
+  "types": [
+      "Instant"
+  ],
+  "uuid": "c5eceeb3-6572-5324-bfc9-622e0f50a112",
+  "watermark": "rakdos"
+}
